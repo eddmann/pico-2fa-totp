@@ -14,6 +14,7 @@ Generates Time-based One-Time Password's (TOTP) using MicroPython, Raspberry Pi 
 
 - Connect the [Pico Display Pack](https://shop.pimoroni.com/products/pico-display-pack) to the Raspberry Pi Pico.
 - Create a `codes.json` file (based on `codes.json.example`) which includes the desired TOTP keys.
+- Flash the Raspberry Pi Pico with the latest [MicroPython with Pimoroni Libs](https://github.com/pimoroni/pimoroni-pico/releases/latest).
 - Copy the codebase to the Raspberry Pi Pico.
 - Upon boot, you will be required to specify the current UTC time (clicking `B` once set).
 - Now you can cycle through your TOTP's using the `X` button.
