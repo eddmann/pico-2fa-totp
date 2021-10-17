@@ -2,6 +2,8 @@
 
 Generates Time-based One-Time Password's (TOTP) using MicroPython, Raspberry Pi Pico and the [Pico Display Pack](https://shop.pimoroni.com/products/pico-display-pack).
 
+<img src="example.gif" />
+
 ## Features
 
 - Complete [MicroPython implementation](totp) of the TOTP specification (and underlying HMAC-SHA1, Base32 dependencies).
@@ -18,3 +20,5 @@ Generates Time-based One-Time Password's (TOTP) using MicroPython, Raspberry Pi 
 - Copy the codebase to the Raspberry Pi Pico.
 - Upon boot, you will be required to specify the current UTC time (clicking `B` once set).
 - Now you can cycle through your TOTP's using the `X` button.
+
+<img src="example.jpg" />
